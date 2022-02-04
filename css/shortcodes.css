@@ -43,6 +43,10 @@
 	font-weight: 500;
 }
 
+.section-title h5 span {
+	color: #042438;
+}
+
 .dark-bg .title, .theme-bg .title, .theme-bg .section-title h6 {
 	color: #ffffff;
 }
@@ -57,7 +61,8 @@
 	font-weight: 600;
 	text-transform: uppercase;
 	margin-bottom: 10px;
-	background: linear-gradient(135deg, #042438 32.5%, #8046f4 45%, #fb3e7d 60%, #00f2aa 70%);
+	/* background: linear-gradient(135deg, #042438 32.5%, #8046f4 45%, #fb3e7d 60%, #00f2aa 70%); */
+	background: #000;
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 }

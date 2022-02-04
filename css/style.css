@@ -144,7 +144,7 @@ p {
 }
 
 section {
-	padding: 80px 0;
+	padding: 70px 0;
 }
 
 .font-w-3 {
@@ -232,7 +232,7 @@ section {
 }
 
 .dark-bg {
-	background-color: #12141d;
+	background-color: #042438;
 }
 
 .grey-bg {
@@ -629,13 +629,13 @@ section {
 	font-size: 40px;
 	line-height: 40px;
 	top: 0;
-	color: #390734;
+	color: #fff;
 }
 
 .contact-media h6 {
 	display: block;
 	margin-bottom: 5px;
-	color: #390734;
+	color: #fff;
 	text-align: left;
 }
 
@@ -651,6 +651,7 @@ section {
 	color: rgba(255,255,255,0.8);
 	font-weight: 600;
 	display: block;
+	text-align: left;
 }
 
 .contact-media a:hover {
@@ -697,7 +698,7 @@ textarea.form-control {
 .form-control:focus {
 	box-shadow: none;
 	background-color: inherit;
-	border-color: #390734;
+	border-color: #fff;
 }
 
 select.form-control {
@@ -1607,8 +1608,19 @@ input.form-product {
 }
 
 .contact-main {
-	padding: 20px;
+	padding: 31px 20px;
     background: #390734;
-    border-radius: 8px;
     margin-left: 50px;
+}
+
+.form-control option {
+	color: #000;
+}
+
+.text-justify {
+	text-align: justify;
+}
+
+.case-studies-section {
+	padding: 70px 0px 0px;
 }
