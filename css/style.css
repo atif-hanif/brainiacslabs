@@ -672,10 +672,14 @@ label {
 	height: 50px;
 	border-radius: 0;
 	font-size: 13px;
-	color: #390734;
+	color: #fff;
 	background-color: inherit;
 	border: 1px solid #f6f7fb;
 	;
+}
+
+.form-control:focus {
+    color: #fff;
 }
 
 .theme-bg .form-control, .dark-bg .form-control {
@@ -1623,4 +1627,96 @@ input.form-product {
 
 .case-studies-section {
 	padding: 70px 0px 0px;
+}
+
+.emergency-icons {
+	width: 84px;
+}
+
+/* Side Menu */
+
+.side-menu.-right {
+    right: 0;
+}
+
+.side-menu.--center {
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.side-menu {
+    position: fixed;
+    z-index: 999;
+}
+
+.side-menu,
+.side-menu * {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    text-decoration: none;
+    background: 0 0;
+    line-height: 1;
+    border-radius: 10px 0 0 10px;
+}
+
+.side-menu.-right.-medium .sm-item {
+    right: calc(-100% + 40px);
+}
+
+
+/* .side-menu.-shadow .sm-item {
+    box-shadow: 0 0 8px rgb(0 0 0 / 50%);
+} */
+
+.side-menu.-space .sm-item {
+    margin: 2px 0;
+}
+
+.side-menu .sm-item {
+    position: relative;
+    transition: .4s all linear;
+}
+
+.side-menu .sm-item a {
+    display: flex;
+}
+
+.side-menu [class$=black] {
+    /* background: linear-gradient(to right, #29368a, #2dbddf); */
+	background-color: #390734;
+}
+
+.side-menu [class^=white] {
+    color: #fff;
+}
+
+.side-menu.-medium .sm-icon {
+    width: 40px;
+}
+
+.side-menu.-medium .sm-icon,
+.side-menu.-medium .sm-label {
+    height: 50px;
+    line-height: 50px;
+    font-size: 20px;
+}
+
+.side-menu .sm-icon {
+    text-align: center;
+}
+
+.side-menu.-right .sm-label {
+    padding-right: 10px;
+}
+
+.side-menu.-right .sm-item:hover,
+.side-menu.-right.-list-show .sm-list:hover {
+    right: 0;
+}
+
+.side-menu.-space .sm-item {
+    margin: 2px 0;
 }

@@ -423,6 +423,8 @@ a, i, .btn, button, img, span, #header-wrap.fixed-header, .nav-link.dropdown-tog
 
 .nav-item.dropdown .dropdown-menu a:hover {
 	color: #390734;
+	background-color: #fff;
+	font-weight: 600;
 }
 
 .nav-item.dropdown .dropdown-menu a::before {
