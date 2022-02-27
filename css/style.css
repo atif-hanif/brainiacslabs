@@ -1720,3 +1720,69 @@ input.form-product {
 .side-menu.-space .sm-item {
     margin: 2px 0;
 }
+
+/* Filter */
+
+.filters {
+	width: 100%;
+	text-align: center;
+	padding-bottom: 35px;
+}
+
+.filters ul {
+	list-style: none;
+    padding: 20px 10px;
+    box-shadow: -1px 1px 11px rgba(0,0,0,.4);
+    margin: 0 40px;
+    border-radius: 30px;
+	background-color: #042438;
+}
+
+.filters li {
+	display: inline-block;
+    padding: 10px 25px;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.filters li a {
+	color: #b6b6b6;
+	text-decoration: none;
+}
+
+.filters li a:hover {
+	color:#fff;
+}
+
+.filters li:hover {
+	box-shadow: -1px 1px 11px rgba(0,0,0,.4);
+	border-radius: 15px;
+}
+
+.filters li.active a {
+	color: #fff;
+	border: 1px solid #fff;
+	border-radius: 15px;
+	box-shadow: -1px 1px 11px rgba(0,0,0,.4);
+	padding: 10px 25px;
+}
+
+.grid-item {
+	display: inline-block;
+	overflow: hidden;
+	text-align: center;
+	width: 356px;
+	height:475px;
+}
+
+.grid-item img {
+	width: 356px;
+	height:475px;
+	filter: url(filters.svg#grayscale);
+	transition: 0.9s;
+}
+
+.grid-item img:hover {
+	filter: none;
+}
